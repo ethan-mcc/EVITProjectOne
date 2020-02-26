@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Project1Testing.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project1Testing"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="-1026,-19262,0,0" VerticalAlignment="Top" Height="440" Width="852" FontSize="72"/>
+        <Button Content="page2" HorizontalAlignment="Left" Margin="365,493,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="page3" HorizontalAlignment="Left" Margin="546,493,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,101,0,0" Text="RedDoor" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="189" FontSize="48"/>
+
+    </Grid>
+</Page>
